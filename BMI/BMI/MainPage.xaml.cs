@@ -17,8 +17,8 @@ namespace BMI
         private void Button_Clicked(object sender, EventArgs e)
         {
 
-            Double h = Double.Parse(Height.Text);
-            Double w = Double.Parse(Weight.Text);
+            Double h = Double.Parse(height.Text);
+            Double w = Double.Parse(weight.Text);
             //DisplayAlert("身長", Height.Text, "OK");
             //DisplayAlert("体重", Weight.Text, "OK");
 
