@@ -39,11 +39,11 @@ namespace BMI
             }
             else if (bmi < 30)
             {
-                DisplayAlert("判定", bmi.ToString() + "ちょっとデブです。", "OK");
+                DisplayAlert("判定", bmi.ToString() + "普通よりはぽっちゃりです。", "OK");
             }
             else if (bmi < 35)
             {
-                DisplayAlert("判定", bmi.ToString() + "割とデブです。", "OK");
+                DisplayAlert("判定", bmi.ToString() + "ぽっちゃりよりデブです。", "OK");
 
             }
             else if (bmi < 40)
